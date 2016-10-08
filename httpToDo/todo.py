@@ -57,4 +57,4 @@ class TodoList(Resource):
 api.add_resource(TodoList, '/todos')
 api.add_resource(Todo, '/todos/<todo_id>')
 
-app.run(debug=True,host='0.0.0.0',port=5001)
+app.run(host='0.0.0.0',port=5001)
